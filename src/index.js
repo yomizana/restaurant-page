@@ -1,1 +1,4 @@
-console.log("test");
+/* eslint-disable no-console */
+import homepage from "./homepage";
+
+homepage();
