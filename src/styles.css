@@ -1,6 +1,6 @@
 body {
   background-color: whitesmoke;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -59,4 +59,10 @@ li:first-of-type {
   height: 350px;
   background-color: white;
   border: 1px solid purple;
+}
+
+.card-image {
+  object-fit: cover;
+  height: 200px;
+  width: 300px;
 }

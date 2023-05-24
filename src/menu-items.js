@@ -1,6 +1,10 @@
 import { createName, createImage, createDescription } from "./utilities";
 import FriedCatfish from "./assets/img/friedcatfish.png";
 import PaellaMixta from "./assets/img/paella-mixta.jpg";
+import ShrimpAndAvocadoTacoSalad from "./assets/img/shrimp-avocado-taco-salad.jpg";
+import ParmesanCrustedTilapia from "./assets/img/parmesan-tilapia.jpg";
+import BakedFishSticks from "./assets/img/baked-fish-sticks.jpg";
+import SalmonBurger from "./assets/img/salmon-burger.jpg";
 
 function menuItem(name, image, description) {
   return { name, image, description };
@@ -10,7 +14,7 @@ const friedCatfish = menuItem(
   createName("Fried Catfish"),
   createImage(FriedCatfish),
   createDescription(
-    "Savor the crispy delight of fried catfish, featuring a golden-brown crust and moist, flaky flesh."
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet sagittis dui. Duis nec odio eros."
   )
 );
 
@@ -18,63 +22,39 @@ const paellaMixta = menuItem(
   createName("Paella Mixta"),
   createImage(PaellaMixta),
   createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
+    "Praesent convallis mauris eu mauris vestibulum tincidunt. Integer condimentum, erat et bibendum fermentum."
   )
 );
 
 const recipe3 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
+  createName("Shrimp and Avocado Taco Salad"),
+  createImage(ShrimpAndAvocadoTacoSalad),
   createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
+    "Cras sit amet nunc sed turpis lacinia pulvinar ut vitae neque. Maecenas fringilla neque ex, feugiat ornare sapien."
   )
 );
 
 const recipe4 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
+  createName("Parmesan Crusted Tilapia"),
+  createImage(ParmesanCrustedTilapia),
   createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
+    "Morbi rutrum lacinia risus vel lacinia. Nam risus eros, sodales sed odio a, ullamcorper accumsan quam. Nam posuere."
   )
 );
 
 const recipe5 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
+  createName("Baked Fish Sticks"),
+  createImage(BakedFishSticks),
   createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
+    "Etiam convallis lectus ante, in consequat tortor cursus vel. Pellentesque sollicitudin volutpat leo nec fermentum. Etiam maximus mauris."
   )
 );
 
 const recipe6 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
+  createName("Salmon Burger"),
+  createImage(SalmonBurger),
   createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
-  )
-);
-
-const recipe7 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
-  createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
-  )
-);
-
-const recipe8 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
-  createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
-  )
-);
-
-const recipe9 = menuItem(
-  createName("Paella Mixta"),
-  createImage(PaellaMixta),
-  createDescription(
-    "Succulent seafood and savory meats harmoniously united in a vibrant rice symphony."
+    "Duis dictum magna sapien, ac consectetur risus pulvinar commodo. Vestibulum sit amet urna sed erat auctor gravida tempus."
   )
 );
 
@@ -85,9 +65,6 @@ const menuItems = [
   recipe4,
   recipe5,
   recipe6,
-  recipe7,
-  recipe8,
-  recipe9,
 ];
 
 export default menuItems;
