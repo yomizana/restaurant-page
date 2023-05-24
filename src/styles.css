@@ -20,7 +20,8 @@ body {
   padding: 20px;
 }
 
-.container {
+.container,
+.social-media-container {
   background-color: white;
   border: 1px solid black;
   padding: 10px;
@@ -65,4 +66,24 @@ li:first-of-type {
   object-fit: cover;
   height: 200px;
   width: 300px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.social-media-container > h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.social-media-icons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  padding: 0 5px;
 }
