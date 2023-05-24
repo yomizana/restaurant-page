@@ -19,4 +19,12 @@ function createDescription(description) {
   return newDescription;
 }
 
-export { createName, createImage, createDescription };
+function clearContent() {
+  const contentContainer = document.getElementById("content");
+
+  while (contentContainer.firstElementChild) {
+    contentContainer.firstElementChild.remove();
+  }
+}
+
+export { createName, createImage, createDescription, clearContent };

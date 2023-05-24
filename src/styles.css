@@ -1,9 +1,14 @@
 body {
   background-color: whitesmoke;
-  width: auto;
-  height: 100vh;
+  height: auto;
   margin: 0;
   padding: 0;
+}
+
+.navbar-container > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
 }
 
 #content {
