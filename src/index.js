@@ -8,4 +8,24 @@ import { clearContent } from "./utilities";
 
 navbar();
 
+let currentPage = 0;
+const buttons = Array.from(document.getElementsByClassName("navbar-button"));
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    if (buttons.indexOf(button) === 0) {
+      clearContent();
+      homepage();
+    }
+    if (buttons.indexOf(button) === 1) {
+      clearContent();
+      menu();
+    }
+    if (buttons.indexOf(button) === 2) {
+      clearContent();
+      contact();
+    }
+  });
+});
+
 homepage();

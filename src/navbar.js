@@ -7,14 +7,17 @@ function navbar() {
   const homeItem = document.createElement("li");
   const homeButton = document.createElement("button");
   homeButton.textContent = "Home";
+  homeButton.className = "navbar-button";
 
   const menuItem = document.createElement("li");
   const menuButton = document.createElement("button");
   menuButton.textContent = "Menu";
+  menuButton.className = "navbar-button";
 
   const contactItem = document.createElement("li");
   const contactButton = document.createElement("button");
   contactButton.textContent = "Contact";
+  contactButton.className = "navbar-button";
 
   document.body.insertBefore(navbarContainer, contentContainer);
   navbarContainer.appendChild(pageList);

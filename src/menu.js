@@ -12,16 +12,16 @@ function menu() {
   contentDiv.appendChild(title);
   contentDiv.appendChild(menuDiv);
 
-  for (let i = 0; i < 9; i += 1) {
+  menuItems.forEach((item) => {
     const card = document.createElement("div");
     card.className = "item-container";
 
-    card.appendChild(menuItems[i].name);
-    card.appendChild(menuItems[i].image);
-    card.appendChild(menuItems[i].description);
+    card.appendChild(item.name);
+    card.appendChild(item.image);
+    card.appendChild(item.description);
 
     menuDiv.appendChild(card);
-  }
+  });
 }
 
 export default menu;
