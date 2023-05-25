@@ -4,11 +4,13 @@ import navbar from "./navbar";
 import homepage from "./homepage";
 import menu from "./menu";
 import contact from "./contact";
+import footer from "./footer";
 import { clearContent } from "./utilities";
 
 navbar();
+homepage();
+footer();
 
-let currentPage = 0;
 const buttons = Array.from(document.getElementsByClassName("navbar-button"));
 
 buttons.forEach((button) => {
@@ -27,5 +29,3 @@ buttons.forEach((button) => {
     }
   });
 });
-
-homepage();
