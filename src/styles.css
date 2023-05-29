@@ -51,6 +51,7 @@ body {
   background-size: cover;
   gap: 10px;
   height: 100%;
+  overflow: auto;
 }
 
 #content > h2 {

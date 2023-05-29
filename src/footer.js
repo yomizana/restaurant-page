@@ -1,5 +1,4 @@
 function footer() {
-  const contentDiv = document.getElementById("content");
   const footerContainer = document.createElement("div");
   footerContainer.className = "footer-container";
 
