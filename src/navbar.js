@@ -4,6 +4,7 @@ function navbar() {
   navbarContainer.className = "navbar-container";
 
   const pageList = document.createElement("ul");
+  pageList.className = "navbar-ul";
   const homeItem = document.createElement("li");
   const homeButton = document.createElement("button");
   homeButton.textContent = "Home";

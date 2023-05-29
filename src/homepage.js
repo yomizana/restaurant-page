@@ -20,6 +20,7 @@ function homepage() {
   hoursTitle.textContent = "Hours";
 
   const hoursList = document.createElement("ul");
+  hoursList.className = "content-list";
   const monSatHours = document.createElement("li");
   monSatHours.textContent = "Monday - Saturday: 8am - 10pm";
 
