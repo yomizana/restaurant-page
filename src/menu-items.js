@@ -10,7 +10,7 @@ function menuItem(name, image, description) {
   return { name, image, description };
 }
 
-const friedCatfish = menuItem(
+const dish1 = menuItem(
   createName("Fried Catfish"),
   createImage(FriedCatfish),
   createDescription(
@@ -18,7 +18,7 @@ const friedCatfish = menuItem(
   )
 );
 
-const paellaMixta = menuItem(
+const dish2 = menuItem(
   createName("Paella Mixta"),
   createImage(PaellaMixta),
   createDescription(
@@ -26,7 +26,7 @@ const paellaMixta = menuItem(
   )
 );
 
-const recipe3 = menuItem(
+const dish3 = menuItem(
   createName("Shrimp and Avocado Taco Salad"),
   createImage(ShrimpAndAvocadoTacoSalad),
   createDescription(
@@ -34,7 +34,7 @@ const recipe3 = menuItem(
   )
 );
 
-const recipe4 = menuItem(
+const dish4 = menuItem(
   createName("Parmesan Crusted Tilapia"),
   createImage(ParmesanCrustedTilapia),
   createDescription(
@@ -42,15 +42,15 @@ const recipe4 = menuItem(
   )
 );
 
-const recipe5 = menuItem(
+const dish5 = menuItem(
   createName("Baked Fish Sticks"),
   createImage(BakedFishSticks),
   createDescription(
-    "Etiam convallis lectus ante, in consequat tortor cursus vel. Pellentesque sollicitudin volutpat leo nec fermentum. Etiam maximus mauris."
+    "Etiam convallis lectus ante, in consequat tortor cursus vel. Pellentesque sollicitudin volutpat leo nec fermentum."
   )
 );
 
-const recipe6 = menuItem(
+const dish6 = menuItem(
   createName("Salmon Burger"),
   createImage(SalmonBurger),
   createDescription(
@@ -58,13 +58,6 @@ const recipe6 = menuItem(
   )
 );
 
-const menuItems = [
-  friedCatfish,
-  paellaMixta,
-  recipe3,
-  recipe4,
-  recipe5,
-  recipe6,
-];
+const menuItems = [dish1, dish2, dish3, dish4, dish5, dish6];
 
 export default menuItems;
