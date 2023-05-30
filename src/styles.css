@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/font/Roboto-Regular.woff2") format("woff2"),
+    url("assets/font/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/font/Roboto-Medium.woff2") format("woff2"),
+    url("assets/font/Roboto-Medium.woff") format("woff");
+  font-weight: bold;
+}
+
 :root {
   --secondary-bg-color: #297373;
   --accent-color: #205f5f;
@@ -12,6 +26,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-color: whitesmoke;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   height: 100vh;
   margin: 0;
   padding: 0;
